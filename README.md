@@ -1,5 +1,5 @@
 
-# The Projectname Project #
+# The Skyscanner Project #
 
 ## About ##
 
