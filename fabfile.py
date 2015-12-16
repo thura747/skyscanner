@@ -135,7 +135,11 @@ def webserver_restart():
 def restart():
     """ Restart the wsgi process """
     with cd(env.code_dir):
+<<<<<<< HEAD
         run("touch %s/skyscanner/wsgi.py" % env.code_dir)
+=======
+        run("touch %s/projectname/wsgi.py" % env.code_dir)
+>>>>>>> 9ddf42de51404f4c363cc57a5f9b744dc37c5e46
 
 
 def build_static():
