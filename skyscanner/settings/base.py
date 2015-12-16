@@ -174,11 +174,7 @@ def custom_show_toolbar(request):
 
 DEBUG_TOOLBAR_CONFIG = {
     'INTERCEPT_REDIRECTS': False,
-<<<<<<< HEAD
     'SHOW_TOOLBAR_CALLBACK': 'skyscanner.settings.base.custom_show_toolbar',
-=======
-    'SHOW_TOOLBAR_CALLBACK': 'projectname.settings.base.custom_show_toolbar',
->>>>>>> 9ddf42de51404f4c363cc57a5f9b744dc37c5e46
     'HIDE_DJANGO_SQL': True,
     'TAG': 'body',
     'SHOW_TEMPLATE_CONTEXT': True,
@@ -211,11 +207,8 @@ DEBUG_TOOLBAR_CONFIG = {
 FILE_UPLOAD_PERMISSIONS = 0o0664
 
 # The WSGI Application to use for runserver
-<<<<<<< HEAD
+
 WSGI_APPLICATION = 'skyscanner.wsgi.application'
-=======
-WSGI_APPLICATION = 'projectname.wsgi.application'
->>>>>>> 9ddf42de51404f4c363cc57a5f9b744dc37c5e46
 
 # Define your database connections
 DATABASES = {
@@ -287,42 +280,26 @@ INTERNAL_IPS = ('127.0.0.1')
 
 SERVER_EMAIL = "webmaster@example.com"
 DEFAULT_FROM_EMAIL = "webmaster@example.com"
-<<<<<<< HEAD
 SYSTEM_EMAIL_PREFIX = "[skyscanner]"
-=======
-SYSTEM_EMAIL_PREFIX = "[projectname]"
->>>>>>> 9ddf42de51404f4c363cc57a5f9b744dc37c5e46
 
 ## Log settings
 
 LOG_LEVEL = logging.INFO
 HAS_SYSLOG = True
-<<<<<<< HEAD
 SYSLOG_TAG = "http_app_skyscanner"  # Make this unique to your project.
-=======
-SYSLOG_TAG = "http_app_projectname"  # Make this unique to your project.
->>>>>>> 9ddf42de51404f4c363cc57a5f9b744dc37c5e46
 # Remove this configuration variable to use your custom logging configuration
 LOGGING_CONFIG = None
 LOGGING = {
     'version': 1,
     'loggers': {
-<<<<<<< HEAD
         'skyscanner': {
-=======
-        'projectname': {
->>>>>>> 9ddf42de51404f4c363cc57a5f9b744dc37c5e46
             'level': "DEBUG"
         }
     }
 }
 
 # Common Event Format logging parameters
-<<<<<<< HEAD
 #CEF_PRODUCT = 'skyscanner'
-=======
-#CEF_PRODUCT = 'projectname'
->>>>>>> 9ddf42de51404f4c363cc57a5f9b744dc37c5e46
 #CEF_VENDOR = 'Your Company'
 #CEF_VERSION = '0'
 #CEF_DEVICE_VERSION = '0'
